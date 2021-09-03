@@ -1,0 +1,650 @@
+* {
+
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.back {
+    background-image: url(img/slider-01.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.backlayer{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar  {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 265894256358996;
+    overflow: auto;
+}
+
+.navbar .wnavber {
+    float: left;
+    margin-left: 150px;
+   color: rgb(255,48,91);
+   margin-top: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.navbar .linksnavbar {
+    float: right;
+    
+}
+
+
+.navbar .linksnavbar ul li {
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px ;
+
+}
+
+.linksnavbar ul li .changcolor {
+    color: red;
+}
+
+
+.navbar .linksnavbar a {
+    text-decoration: none ;
+    color: white ;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+.linksnavbar {
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+
+.linksnavbar:hover a{
+    color: red ;
+}
+
+
+
+.linksnavbar .changcolor {
+    color: red;
+}
+
+.back {
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+
+.back .interface {
+    margin: auto;
+    color: white;
+    margin-top: 300px;
+    width: 60%;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.back .interface h4{
+font-size: 24px;
+}
+
+.interface .alex {
+    color: red;
+    font-size: 70px;
+}
+
+.interface {
+    position: relative;
+    font-size: 26px;
+
+}
+
+
+.pole::after {
+    content: "Desinger |";
+    color: white;
+    position: absolute;
+    animation: cpole 1.5s infinite;
+    margin-left: 5px;
+}
+
+
+@keyframes cpole
+{
+    from { content: "Desinger |"}
+    to {  content: "Development |"}
+}
+
+
+.hello hr {
+    border:2px gray noshade ;
+    width: 100%;
+    border-style: dashed;
+
+}
+
+.hello {
+width: 80%;
+margin: auto;
+overflow: auto;
+line-height: 30px;
+height: 100%;
+
+}
+
+
+.hellolayer img{
+    border-radius: 5px;
+    width: 100%;
+
+}
+.scend{
+    width:40%;
+    position: relative;
+    float: left;
+
+
+
+}
+
+.hellobord {
+    width: 70%;
+    height: 60%;
+    border: rgb(85,85,85) 10px solid;
+    border-radius: 5px;
+}
+
+.hellolayer{
+    position: absolute;
+    top:5%;
+    left: 6%;
+    overflow: hidden;
+
+}
+    
+.layer {
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100% ;
+    transition: top 1s ;
+    border-radius: 5px;
+}
+
+.hellolayer:hover .layer{
+    top: 0;
+
+}
+
+
+.clr{
+    clear: both;
+}
+
+.hello .hword {
+    width:60% ;
+    float: right;
+}
+
+
+
+.hello .hword h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 34px;
+
+
+}
+
+.hello .ihello{
+    position: relative;
+    text-align: center;
+    margin-right: 550px;
+
+
+
+}
+
+
+.ihello::before{
+    content: "";
+    background-color:rgb(255,48,91);
+    width: 5px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    margin-top: 2px;
+}
+
+
+
+
+.hello .hword p{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+
+}
+.phello .x{
+    margin-left: 50px;
+}
+
+.phello .he {
+    margin-bottom: 15px;}
+
+
+.hello .phello a {
+text-decoration: none;
+background-color: rgb(255,48,91);
+border: none;
+margin: 10px;
+padding: 13px 35px;
+border-radius: 5px;
+color: white;
+
+}
+
+
+.third .our{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;  
+    padding-top: 80px;
+}
+
+
+
+.third .our .line{
+    width: 10%;
+    height: 2px;
+    background-color: rgb(255,48,91);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.line::before{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 350%;
+    right: 25%;
+}
+
+.line::after{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top:350% ;
+    right: 25%;
+}
+
+
+.icthird{
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 40px;
+    
+    transition: 1s 1s transform , background-color;
+    margin-left:120px;
+    
+}
+
+.icthird:hover{
+transform: scale(1.1);
+background-color: white;
+}
+.box{
+    background-color: rgb(241,241,241);
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 100px;
+}
+
+
+.fourth{
+    margin-bottom: 100px;
+}
+
+.fourth .Portfolio {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;  
+
+}
+
+
+
+.fourth .Portfolio .lfourth{
+    width: 10%;
+    height: 2px;
+    background-color: rgb(255,48,91);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.lfourth::before{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 350%;
+    right: 25%;
+}
+
+.lfourth::after{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top:350% ;
+    right: 25%;
+}
+
+.fourth .all{
+    text-align: center;
+
+
+}
+
+.fourth .all ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 30px;
+    list-style-type: none;
+
+}
+
+.fourth .all a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.fourth .imgall .underall{
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.fourth .imgall .underall img{
+    width: 26%;
+    margin-left: 70px;
+    margin-top: 70px;
+    transition: 1s opacity;
+
+}
+
+ .imgall:hover img{
+     opacity: 0.6;
+ }
+ .fifst{
+     background-color: rgb(241,241,241);
+     width: 100%;
+     height: 40vh;
+     margin-bottom: 100px;
+ }
+
+ .fifst.fifth {
+     width: 80%;
+     margin: auto;
+     overflow: auto;
+ }
+
+.fifst .fifth .fimg{
+    float: left;
+    text-align: center;
+    margin-left: 213px;
+    padding-top: 80px;
+
+}
+
+
+.sixth {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.imgsixth{
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+    
+}
+
+.imgsixth img {
+    border-radius: 50%;
+
+}
+.boxsixth{
+    width: 70%;
+    float: right;
+
+}
+
+.sixstep{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.sixth .sixstep .lsix{
+    width: 10%;
+    height: 2px;
+    background-color: rgb(255,48,91);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;}
+
+
+    
+.lsix::before{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 350%;
+    right: 25%;
+}
+
+.lsix::after{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top:350% ;
+    right: 25%;}
+
+
+.seventh{
+    overflow: auto;
+}
+    
+  .seventh .Blog{
+      text-align: center;
+      margin-bottom: 50px;
+  }  
+
+
+  .seventh .Blog .lour{
+    width: 10%;
+    height: 2px;
+    background-color: rgb(255,48,91);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.lour::before{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 350%;
+    right: 25%;
+}
+
+.lour::after{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top:350% ;
+    right: 25%;
+}
+
+.imgblog{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    
+}
+
+
+.imgblog img{
+    width:80% ;
+}
+
+.imgblog .sblog{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 0px 10px;
+
+}
+
+.imgblog .sblog h1{
+    font-family:'Source Sans Pro', sans-serif;  
+
+}
+
+.imgblog .sblog p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 16px ;
+
+}
+
+.imgblog .sblog a{
+    text-decoration: none;
+    margin-top: 10px;
+    float: left;
+    color: black;
+}
+
+.theend .Contact{
+    margin-bottom: 40px;
+    font-family:'Source Sans Pro', sans-serif;  
+
+}
+
+
+.theend {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 200PX;
+}
+
+.iend input{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+
+.tend input{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.thrend textarea{
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 750px;
+
+}
+
+.theend .Contact .lthe{
+    width: 10%;
+    height: 2px;
+    background-color: rgb(255,48,91);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.lthe::before{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 350%;
+    right: 25%;
+}
+
+.lthe::after{
+    content: "";
+    background-color: rgb(255,48,91);
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top:350% ;
+    right: 25%;}
+
+
+    .theend .athe a{
+        text-decoration: none;
+        border: 1px solid;
+        padding: 10px 20px;
+        background-color: rgb(255,48,91);
+        color: white;
+        border-radius: 5px;
+        margin-right: 600px;
+    }
+
+    .theend .athe{
+        margin-top: 30px;
+
+    }
